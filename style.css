@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+#allboxes{
+align-items: flex-start;
+justify-content: space-between;
+margin-top: 20px;
+width: 800px;
+margin: 0 auto;
+gap: 10px;
+display: flex;
+
+}
+            /*NAVBAR*/
+.nav {
+    background-color:lightgray;
+    color:black;
+    height: 35px;
+    margin: 0 auto 20px;
+    padding:20px 40px;
+    align-items: center;
+    display: flex;
+   justify-content: space-between;
+   width: 800px;
+}
+
+.nav-title {
+    font-size: 25px;
+}
+
+.nav-links {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap:300px;
+    list-style: none;
+
+}
+            /*BUTTONS*/
+.navbtn {
+    background-color: rgb(85, 85, 168);
+    color: white;
+    border: 1px solid black;
+}
+
+.leftbtns {
+    background-color: yellow;
+    color:black;
+    border: 2px solid black;
+    box-shadow:2px 2px black;
+}
+.rightbtn{
+    background-color: green;
+    color:black;
+    border: 2px solid black;
+    width: 200px;
+    height: 30px;
+    box-shadow:2px 2px black;
+  
+}
+            /*Boxes*/
+.rightbox{
+    margin-bottom: 10px;
+background-color:whitesmoke;
+border:1px solid black ;
+width: 100%;
+padding: 10px;
+flex: 1;
+
+}
+.leftcards{ 
+    padding: 10px;
+   margin-bottom: 10px;
+background-color:whitesmoke;
+border:1px solid black;
+width: 100%;
+display: flex;
+/*justify-content: space-between;*/
+}
+
+#leftbox{
+    flex: 2;
+}
+
+            /*Other Details*/
+p {
+    font-size: 20px;
+}
+
+
+
+
+
+

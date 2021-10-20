@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <!-- NAVBAR -->
+        <div class="nav">
+            <h1 class="nav-title">Dojonary</h1>
+            <ul class="nav-links">
+                <li><input type="Text" Name="Search" placeholder="Search" id=Search></li>
+                <li><button class="navbtn" onclick="logout(this)">Login</button></li>
+            </ul>
+        </div>
+
+        <!-- User Card -->
+        <div id="allboxes">
+            <div id="leftbox">
+                <div class="leftcards">
+                    <div>
+                        <h1>Ninja</h1>
+                        <p>noun</p>
+                        <p>Plural:ninjas</p>
+                        <button class="leftbtns" onclick="linuxAlert(this)">13 likes</button>
+                    </div>
+                    <div class="movetext">
+                        <p> A practitioner skilled in the<br>
+                            <span style="color:rgb(74, 74, 161);">Japanese</span> art of <span
+                                style="color: rgb(74, 74, 161);">Ninjutsu</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="leftcards">
+                    <div>
+                        <h1>Ninja</h1>
+                        <p>noun</p>
+                        <p> Plural:ninjas</p>
+                        <button class="leftbtns" onclick="linuxAlert(this)">37 likes</button>
+                    </div>
+                    <div class="movetext">
+                        <p> A <span style="color: rgb(74, 74, 161);">Programmer</span>who breaks <br>
+                            down problems with <span style="color: rgb(74, 74, 161);">zen</span>-like<br>
+                            focus</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rightbox">
+                <div class="rightcard">
+                    <h2> Dojonary is <br>
+                        defined by<span>YOU</span>
+                </div>
+                <button class="rightbtn" onclick="hide(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
